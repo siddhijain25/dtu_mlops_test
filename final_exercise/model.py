@@ -1,6 +1,7 @@
 from torch import nn
-import numpy as np
 from torch import unsqueeze
+import pandas as pd
+import numpy as np
 from torch.nn.modules.conv import Conv2d
 
 class MyAwesomeModel(nn.Module):
